@@ -13,7 +13,7 @@ function wp_react_hello_world() {
  
 function include_react_files() {
     wp_enqueue_style( 'prefix-style', plugins_url('css\main.d33e78b3.css', __FILE__) );
-    wp_enqueue_script( 'plugin-scripts', plugins_url('js/main.36cb7db0.js', __FILE__),array(),  '0.0.1', true );
+    wp_enqueue_script( 'plugin-scripts', plugins_url('js/main.56d42d4b.js', __FILE__),array(),  '0.0.1', true );
 
     wp_localize_script('plugin-scripts','wp_home_url', array(
       "base_url" => home_url()
