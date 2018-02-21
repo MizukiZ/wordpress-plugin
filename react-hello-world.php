@@ -12,8 +12,8 @@ function wp_react_hello_world() {
 }
  
 function include_react_files() {
-    wp_enqueue_style( 'prefix-style', plugins_url('css/main.c17080f1.css', __FILE__) );
-    wp_enqueue_script( 'plugin-scripts', plugins_url('js/main.c99d7070.js', __FILE__),array(),  '0.0.1', true );
+    wp_enqueue_style( 'prefix-style', plugins_url('css/main.6d4a9922.css', __FILE__) );
+    wp_enqueue_script( 'plugin-scripts', plugins_url('js/main.ec49774e.js', __FILE__),array(),  '0.0.1', true );
 
     wp_localize_script('plugin-scripts','cm_device_info', array(
       "api_key" => get_option("api_key"),
